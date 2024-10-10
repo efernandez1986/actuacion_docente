@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="score_wizard_view_form" model="ir.ui.view">
+            <field name="name">teaching.score.wizard.view.form</field>
+            <field name="model">teaching.score.wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="teaching_id" readonly="employee_no_document"/>
+                            </group>
+                            <group>
+                                <field name="employee_no_document" readonly="teaching_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button name="action_show_score" string="Scores" type="object" class="oe_highlight"
+                                data-hotkey="q"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+        <record id="action_teaching_score_act_window" model="ir.actions.act_window">
+            <field name="name">Scores</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">teaching.score.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="score_wizard_view_form"/>
+            <field name="target">new</field>
+        </record>
+        <menuitem
+                id="teaching_score_menu_item"
+                name="Scores"
+                parent="teaching_teaching_menu_root"
+                sequence="1"
+                action="action_teaching_score_act_window"
+        />
+    </data>
+
+</odoo>

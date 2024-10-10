@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="teaching_observation_form_view" model="ir.ui.view">
+            <field name="name">teaching.observation.form.view</field>
+            <field name="model">teaching.observation</field>
+            <field name="arch" type="xml">
+                <form string="Observation">
+                    <sheet>
+
+                        <header>
+                            <h1 class="o_horizontal_separator mt-4 mb-3 mb-4">Observations of
+                                Teaching
+                            </h1>
+                        </header>
+                        <group>
+                            <group>
+                                <field name="teaching_id" readonly="teaching_id"/>
+                                <field name="teaching_observation" readonly="not teaching_id"/>
+
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="teaching_observation_tree_view" model="ir.ui.view">
+            <field name="name">teaching.observation.tree.view</field>
+            <field name="model">teaching.observation</field>
+            <field name="arch" type="xml">
+                <tree string="ModelTitle">
+                    <field name="teaching_id"/>
+                    <field name="teaching_observation"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="teaching_observation_act_window" model="ir.actions.act_window">
+            <field name="name">Observations</field>
+            <field name="res_model">teaching.observation</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Observations" id="teaching_observation_menu" parent="teaching_teaching_menu_root"
+                  sequence="2" action="teaching_observation_act_window"/>
+
+    </data>
+</odoo>

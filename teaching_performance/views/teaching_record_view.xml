@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- View tree for "records" -->
+    <record id="teaching_record_tree_view" model="ir.ui.view">
+        <field name="name">teaching.record.view</field>
+        <field name="model">teaching.record</field>
+        <field name="arch" type="xml">
+            <tree string="Records">
+                <field name="teaching_name" width="30%"/>
+                <field name="title" width="40%"/>
+                <field name="degree_date" width="20%"/>
+            </tree>
+        </field>
+    </record>
+    <!-- View form for "records" -->
+    <record id="teaching_record_form_view" model="ir.ui.view">
+        <field name="name">teaching.record.form.view</field>
+        <field name="model">teaching.record</field>
+        <field name="arch" type="xml">
+            <form string="Record">
+                <sheet>
+                    <group>
+                        <field name="teaching_id" readonly="teaching_id"/>
+                        <field name="title" readonly="not teaching_id"/>
+                        <field name="degree_date" readonly="not teaching_id"/>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"></field>
+                    <field name="message_ids" widget="mail_thread"></field>
+                </div>
+            </form>
+        </field>
+
+    </record>
+    <!-- Action for "type.container" -->
+    <record id='action_teaching_record_act_window' model='ir.actions.act_window'>
+        <field name="name">Records</field>
+        <field name="res_model">teaching.record</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem
+            id="teaching_record"
+            name="Records"
+            parent="teaching_teaching_menu_root"
+            sequence="2"
+            action="action_teaching_record_act_window"
+    />
+
+</odoo>

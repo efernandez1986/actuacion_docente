@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <menuitem id="teaching_performance_menu_root" name="Teaching Performance"
+              action="action_teaching_teaching_act_window"/>
+    <menuitem
+            id="teaching_teaching_menu_root"
+            name="Teachings"
+            parent="teaching_performance_menu_root"
+            sequence="0"
+    />
+</odoo>

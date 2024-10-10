@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="teaching_degree_form_view" model="ir.ui.view">
+            <field name="name">teaching.degree.form.view</field>
+            <field name="model">teaching.degree</field>
+            <field name="arch" type="xml">
+                <form string="Degree">
+                    <sheet>
+
+                        <header>
+                            <h1 class="o_horizontal_separator mt-4 mb-3 mb-4">Degree of
+                                Teaching
+                            </h1>
+                        </header>
+                        <group>
+                            <group>
+                                <field name="employee_ids"/>
+                                <field name="year_degree" readonly="not employee_ids"/>
+                                <field name="degree" readonly="not employee_ids"/>
+                                <field name="antique_degree" readonly="not employee_ids"/>
+                                <field name="date_in_degree" readonly="not employee_ids"/>
+                                <field name="state" readonly="not employee_ids" widget="selection_badge"/>
+
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="teaching_degree_tree_view" model="ir.ui.view">
+            <field name="name">teaching.degree.tree.view</field>
+            <field name="model">teaching.degree</field>
+            <field name="arch" type="xml">
+                <tree string="Degree">
+                    <field name="employee_ids"/>
+                    <field name="year_degree" readonly="not employee_ids"/>
+                    <field name="degree" readonly="not employee_ids"/>
+                    <field name="antique_degree" readonly="not employee_ids"/>
+                    <field name="date_in_degree" readonly="not employee_ids"/>
+                    <field name="state" readonly="not employee_ids" widget="selection_badge"/>
+                </tree>
+            </field>
+        </record>
+
+<!--        <record id="ModelName_search_view" model="ir.ui.view">-->
+<!--            <field name="name">ProjectName.ModelName.search</field>-->
+<!--            <field name="model">ProjectName.ModelName</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <search string="ModelTitle">-->
+<!--                    <group expand="1" string="Group By">-->
+<!--                        <filter string="Example Field" name="example_field" domain="[]"-->
+<!--                                context="{'group_by':'example_field'}"/>-->
+<!--                    </group>-->
+<!--                </search>-->
+<!--            </field>-->
+<!--        </record>-->
+
+        <record id="ModelName_act_window" model="ir.actions.act_window">
+            <field name="name">Degree</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">teaching.degree</field>
+<!--            <field name="view_type">form</field>-->
+            <field name="view_mode">tree,form</field>
+<!--            <field name="help" type="html">-->
+<!--                <p class="oe_view_nocontent_create">-->
+<!--                    There is no examples click here to add new ModelTitle.-->
+<!--                </p>-->
+<!--            </field>-->
+        </record>
+
+        <menuitem name="Degree" id="ModelName_menu" parent="teaching_teaching_menu_root" action="ModelName_act_window"/>
+
+    </data>
+</odoo>

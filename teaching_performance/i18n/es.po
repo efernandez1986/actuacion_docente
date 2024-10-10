@@ -1,0 +1,730 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* teaching_performance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-07 18:28+0000\n"
+"PO-Revision-Date: 2024-10-07 18:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "<span>to</span>"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_needaction
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_needaction
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_needaction
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_needaction
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_exception_decoration
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_exception_decoration
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_exception_decoration
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_exception_decoration
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_state
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_state
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_state
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_state
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_type_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_type_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_type_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_type_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Add a record"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__employee_address
+msgid "Address"
+msgstr "Dirección"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__antique_degree
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__antique_degree
+msgid "Antique Degree"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__antiquity_degree
+msgid "Antiquity degree"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_attachment_count
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_attachment_count
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_attachment_count
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_attachment_count
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_hr_employee__birth_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__employee_birth
+msgid "Birthday"
+msgstr "Fecha de nacimiento"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__character_position
+msgid "Character of the position"
+msgstr "Carácter"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__computation_days
+msgid "Computation days"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__computation_months
+msgid "Computation months"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__computation_years
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Computation years"
+msgstr "Cómputo en Años"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__computed_activity
+msgid "Computed activity"
+msgstr "Comp."
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__total_average_computed_activity
+msgid "Computed activity total"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__create_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__create_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__create_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__create_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__create_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__create_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__create_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__create_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__current_position
+msgid "Current position"
+msgstr "Cargo actual"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__degree_date
+msgid "Date degree or ending"
+msgstr "Fecha de titulación o finalización"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__date_in_degree
+msgid "Date in degree"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Days"
+msgstr "Días"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__degree
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__degree
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__degree_id
+msgid "Degree"
+msgstr "Grado"
+
+#. module: teaching_performance
+#: model:ir.model,name:teaching_performance.model_teaching_degree
+msgid "Degree of Teaching"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Degrees"
+msgstr "Grado y antigüedad"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__department
+msgid "Department"
+msgstr "Departamento"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__display_name
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__display_name
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__display_name
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__display_name
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model,name:teaching_performance.model_hr_employee
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__employee_id
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Employee's Name"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__employee_ids
+msgid "Employees"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__entry_dgep_date
+msgid "Entry DGEIP date"
+msgstr "Fecha de ingreso a DGEIP"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__first_effectiveness_date
+msgid "First effectiveness date"
+msgstr "Fecha de la primera efectividad"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_follower_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_follower_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_follower_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_follower_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_partner_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_partner_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_partner_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_partner_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__activity_type_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__activity_type_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__activity_type_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__activity_type_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__has_message
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__has_message
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__has_message
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__has_message
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid ""
+"History of\n"
+"                        stores"
+msgstr ""
+"Reseña de las\n"
+"                        Calificaciones"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__id
+msgid "ID"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_exception_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_exception_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_exception_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_exception_icon
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__activity_exception_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__activity_exception_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__activity_exception_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__activity_exception_icon
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__message_needaction
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__message_needaction
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__message_needaction
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__message_needaction
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__message_has_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__message_has_sms_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__message_has_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__message_has_sms_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__message_has_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__message_has_sms_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__message_has_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__message_has_sms_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__message_has_error
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model,name:teaching_performance.model_teaching_teaching
+msgid "Information of Teaching"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_is_follower
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_is_follower
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_is_follower
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_is_follower
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__is_teaching
+msgid "Is Teaching"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_hr_employee__is_teaching
+msgid "IsTeaching"
+msgstr ""
+
+#. module: teaching_performance
+#. odoo-python
+#: code:addons/models/teaching_teaching.py:0
+#: code:addons/models/teaching_teaching.py:0
+#: code:addons/models/teaching_teaching.py:0
+#: code:addons/teaching_performance/models/teaching_teaching.py:0
+#: code:addons/teaching_performance/models/teaching_teaching.py:0
+#: code:addons/teaching_performance/models/teaching_teaching.py:0
+#, python-format
+msgid ""
+"It sounds like you've chosen a future date. Please select a date no later "
+"than today"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__write_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__write_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__write_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__write_uid
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__write_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__write_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__write_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__write_date
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_has_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_has_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_has_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_has_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_ids
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_observation_tree_view
+msgid "ModelTitle"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Months"
+msgstr "Meses"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__my_activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__my_activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__my_activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__my_activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_date_deadline
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_summary
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_summary
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_summary
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_summary
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_type_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_type_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_type_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_type_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_hr_employee__no_document
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__employee_no_document
+msgid "No.document"
+msgstr "Cédula"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__school
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__no_school
+msgid "No.school"
+msgstr "Escuela"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_needaction_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_needaction_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_needaction_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_needaction_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_has_error_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_has_error_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_has_error_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_has_error_counter
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__message_needaction_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__message_needaction_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__message_needaction_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__message_needaction_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__message_has_error_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__message_has_error_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__message_has_error_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__message_has_error_counter
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__teaching_observation
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__observation_id
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_observation_form_view
+msgid "Observation"
+msgstr "Observación"
+
+#. module: teaching_performance
+#: model:ir.model,name:teaching_performance.model_teaching_observation
+msgid "Observation of Teaching"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.actions.act_window,name:teaching_performance.teaching_observation_act_window
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__observations
+#: model:ir.ui.menu,name:teaching_performance.teaching_observation_menu
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_observation_form_view
+msgid ""
+"Observations of\n"
+"                                Teaching"
+msgstr ""
+"Observaciones del\n"
+"                                docente"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__employee_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__qualified_antiquity
+msgid "Qualified antiquity per score"
+msgstr "Ant."
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__qualified_antiquity_resultant
+msgid "Qualified antiquity resultant"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__total_average_qualified_activity
+msgid "Qualified antiquity total"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__qualifying_title_date
+msgid "Qualifying title date"
+msgstr "Fecha del título habilitante"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__title
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__record_id
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_record_form_view
+msgid "Record"
+msgstr "Legajo"
+
+#. module: teaching_performance
+#: model:ir.model,name:teaching_performance.model_teaching_record
+msgid "Record of Teaching"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.actions.act_window,name:teaching_performance.action_teaching_record_act_window
+#: model:ir.ui.menu,name:teaching_performance.teaching_record
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_record_tree_view
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Records"
+msgstr "Legajos"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__activity_user_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__activity_user_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__activity_user_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__activity_user_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__message_has_sms_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__message_has_sms_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__message_has_sms_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__message_has_sms_error
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__score_id
+msgid "Score"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model,name:teaching_performance.model_teaching_score
+msgid "Score of Teaching"
+msgstr ""
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Scores"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__activity_state
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__activity_state
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__activity_state
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__activity_state
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_observation__teaching_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__teaching_id
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__teaching_id
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_tree_view
+msgid "Teaching"
+msgstr "Docente"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_record__teaching_name
+msgid "Teaching Name"
+msgstr "Docente"
+
+#. module: teaching_performance
+#: model:ir.ui.menu,name:teaching_performance.teaching_performance_menu_root
+msgid "Teaching Performance"
+msgstr "Actuación docente"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__teaching_performance_qualification
+msgid "Teaching performance qualification"
+msgstr "Doc."
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__total_average_tpq
+msgid "Teaching performance qualification total"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.actions.act_window,name:teaching_performance.action_teaching_teaching_act_window
+#: model:ir.ui.menu,name:teaching_performance.teaching_teaching_menu_item
+#: model:ir.ui.menu,name:teaching_performance.teaching_teaching_menu_root
+msgid "Teachings"
+msgstr "Docentes"
+
+#. module: teaching_performance
+#. odoo-python
+#: code:addons/models/teaching_teaching.py:0
+#: code:addons/teaching_performance/models/teaching_teaching.py:0
+#, python-format
+msgid "The date of entry must be less than the date of the qualifying title."
+msgstr ""
+
+#. module: teaching_performance
+#. odoo-python
+#: code:addons/models/teaching_teaching.py:0
+#: code:addons/teaching_performance/models/teaching_teaching.py:0
+#, python-format
+msgid "The entry date must be less than the date of first effectiveness."
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.constraint,message:teaching_performance.constraint_teaching_degree_teaching_unique
+msgid "The teaching is unique!"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__total
+msgid "Total score"
+msgstr "Total"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__total_average_total
+msgid "Total score total"
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,help:teaching_performance.field_teaching_degree__activity_exception_decoration
+#: model:ir.model.fields,help:teaching_performance.field_teaching_observation__activity_exception_decoration
+#: model:ir.model.fields,help:teaching_performance.field_teaching_record__activity_exception_decoration
+#: model:ir.model.fields,help:teaching_performance.field_teaching_score__activity_exception_decoration
+#: model:ir.model.fields,help:teaching_performance.field_teaching_teaching__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_degree__year_degree
+msgid "Year"
+msgstr "Años"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_score__year_score
+msgid "Year score"
+msgstr "Año"
+
+#. module: teaching_performance
+#: model_terms:ir.ui.view,arch_db:teaching_performance.teaching_teaching_form_view
+msgid "Years"
+msgstr "Años"
+
+#. module: teaching_performance
+#: model:ir.model.fields,field_description:teaching_performance.field_teaching_teaching__years_computation
+msgid "Years of computation"
+msgstr ""
+
+#. module: teaching_performance
+#. odoo-python
+#: code:addons/models/teaching_employee.py:0
+#: code:addons/teaching_performance/models/teaching_employee.py:0
+#, python-format
+msgid "¡The document is just numbers and 8 digits..! Example: 12345678"
+msgstr ""
+
+#. module: teaching_performance
+#. odoo-python
+#: code:addons/models/teaching_teaching.py:0
+#: code:addons/teaching_performance/models/teaching_teaching.py:0
+#, python-format
+msgid "¡The no school is just numbers! Please"
+msgstr ""
+
+#. module: teaching_performance
+#. odoo-python
+#: code:addons/models/teaching_score.py:0
+#: code:addons/teaching_performance/models/teaching_score.py:0
+#, python-format
+msgid "¡The school is just numbers! Please"
+msgstr ""

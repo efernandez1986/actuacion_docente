@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View tree for "teaching" -->
+    <record id="teaching_score_tree_view" model="ir.ui.view">
+        <field name="name">teaching.score.view</field>
+        <field name="model">teaching.score</field>
+        <field name="arch" type="xml">
+            <tree string="Score">
+                <field name="teaching_id"/>
+                <field name="employee_no_document"/>
+            </tree>
+        </field>
+    </record>
+    <!-- View form for "teaching" -->
+<!--    <record id="teaching_teaching_form_view" model="ir.ui.view">-->
+<!--        <field name="name">teaching.teaching.form.view</field>-->
+<!--        <field name="model">teaching.teaching</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <form string="Teaching">-->
+<!--                <sheet>-->
+<!--                    <field name="is_teaching" invisible="1"/>-->
+<!--                    <field name="employee_id" placeholder="Employee's Name" options="{'no_create': True}"-->
+<!--                           readonly="is_teaching"-->
+<!--                           style="font-size: min(4vw, 2.6rem);"/>-->
+<!--                    <br/><br/>-->
+<!--                    <group>-->
+<!--                        <group>-->
+<!--                            <field name="employee_no_document" invisible="not employee_no_document"/>-->
+<!--                            <field name="employee_address" invisible="not employee_address"/>-->
+<!--                            <field name="employee_phone" invisible="not employee_phone"/>-->
+<!--                            <field name="employee_birth" invisible="not employee_birth"/>-->
+<!--                        </group>-->
+<!--                        <group width="50%">-->
+<!--                            <field name="current_position" readonly="not employee_id"/>-->
+<!--                            <field name="entry_dgep_date" readonly="not employee_id"/>-->
+<!--                            <field name="no_school" readonly="not employee_id"/>-->
+<!--                            <field name="qualifying_title_date" readonly="not employee_id"/>-->
+<!--                            <field name="first_effectiveness_date" readonly="not employee_id"/>-->
+<!--                            <label for="computation_years" string="Computation years"/>-->
+<!--                            <div class="o_address_format" style="display: flex;">-->
+<!--                                <div style="width: 50px"><field name="computation_years" placeholder="Years" readonly="not employee_id"/></div>-->
+<!--                                <div style="width: 50px"><field name="computation_months" placeholder="Months" readonly="not employee_id"/></div>-->
+<!--                                <div style="width: 50px"><field name="computation_days" placeholder="Days" readonly="not employee_id"/></div>-->
+<!--                                <div style="width: 50px"><span>to</span></div>-->
+<!--                                <div><field name="years_computation"/></div>-->
+<!--                            </div>-->
+<!--                            <label for="degree" string="Degrees"/>-->
+<!--                            <div class="o_address_format" style="display: flex;">-->
+<!--                                <div style="width: 50px"><field name="degree" placeholder="Years"/></div>-->
+<!--                                <div style="width: 50px"><field name="antique_degree" placeholder="Months"/></div>-->
+<!--                            </div>-->
+<!--                            <field name="record_id" readonly="not employee_id"-->
+<!--                                   widget="section_one2many"-->
+<!--                                   mode="tree">-->
+<!--                                <tree string="Records" editable="bottom">-->
+<!--                                    <control>-->
+<!--                                        <create name="add_record_control" string="Add a record"/>-->
+<!--                                    </control>-->
+<!--                                    <field name="title" width="60%"/>-->
+<!--                                    <field name="degree_date" width="40%"/>-->
+<!--                                </tree>-->
+<!--                                <form string="Records">-->
+<!--                                    <group>-->
+<!--                                        <group>-->
+<!--                                            <field name="title"/>-->
+<!--                                            <field name="degree_date"/>-->
+<!--                                        </group>-->
+<!--                                    </group>-->
+<!--                                </form>-->
+<!--                                <kanban class="o_kanban_mobile">-->
+<!--                                    <field name="title"/>-->
+<!--                                    <field name="degree_date"/>-->
+<!--                                    <templates>-->
+<!--                                        <t t-name="kanban-box">-->
+<!--                                            <div t-attf-class="oe_kanban_card oe_kanban_global_click {{ record.display_type.raw_value ? 'o_is_' + record.display_type.raw_value : '' }}">-->
+<!--                                                <t t-if="!record.display_type.raw_value">-->
+<!--                                                    <div class="row">-->
+<!--                                                        <div class="col-8">-->
+<!--                                                            <strong>-->
+<!--                                                                <span t-esc="record.title"/>-->
+<!--                                                            </strong>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </t>-->
+<!--                                            </div>-->
+<!--                                        </t>-->
+<!--                                    </templates>-->
+<!--                                </kanban>-->
+<!--                            </field>-->
+<!--                        </group>-->
+<!--                    </group>-->
+<!--                    <br/><br/>-->
+
+<!--                    <h1 class="o_horizontal_separator mt-4 mb-3 mb-4">History of-->
+<!--                        stores-->
+<!--                    </h1>-->
+<!--                    <div style=" display: flex; justify-content: center;align-items: center;height: 200px;">-->
+<!--                        <div style="width: 80%;">-->
+<!--                            <field name="score_id"-->
+<!--                                   widget="section_one2many"-->
+<!--                                   mode="tree">-->
+<!--                                <tree string="Scores" create="false" delete="false" edit="false">-->
+<!--                                    <field name="year_score" width="10%"/>-->
+<!--                                    <field name="school" width="10%"/>-->
+<!--                                    <field name="department" width="12%"/>-->
+<!--                                    <field name="character_position" width="15%"/>-->
+<!--                                    <field name="teaching_performance_qualification"/>-->
+<!--                                    <field name="computed_activity"/>-->
+<!--                                    <field name="qualified_antiquity"/>-->
+<!--                                    <field name="total"/>-->
+<!--                                </tree>-->
+<!--                                <form string="Scores">-->
+<!--                                    <group>-->
+<!--                                        <group>-->
+<!--                                            <field name="year_score"/>-->
+<!--                                            <field name="school"/>-->
+<!--                                            <field name="department"/>-->
+<!--                                            <field name="character_position"/>-->
+<!--                                            <field name="teaching_performance_qualification"/>-->
+<!--                                            <field name="computed_activity"/>-->
+<!--                                            <field name="qualified_antiquity"/>-->
+<!--                                            <field name="total"/>-->
+<!--                                        </group>-->
+<!--                                    </group>-->
+<!--                                </form>-->
+<!--                                <kanban class="o_kanban_mobile">-->
+<!--                                    <field name="year_score"/>-->
+<!--                                    <field name="school"/>-->
+<!--                                    <field name="department"/>-->
+<!--                                    <field name="character_position"/>-->
+<!--                                    <field name="teaching_performance_qualification"/>-->
+<!--                                    <field name="computed_activity"/>-->
+<!--                                    <field name="qualified_antiquity"/>-->
+<!--                                    <field name="total"/>-->
+<!--                                    <templates>-->
+<!--                                        <t t-name="kanban-box">-->
+<!--                                            <div t-attf-class="oe_kanban_card oe_kanban_global_click {{ record.display_type.raw_value ? 'o_is_' + record.display_type.raw_value : '' }}">-->
+<!--                                                <t t-if="!record.display_type.raw_value">-->
+<!--                                                    <div class="row">-->
+<!--                                                        <div class="col-8">-->
+<!--                                                            <strong>-->
+<!--                                                                <span t-esc="record.title"/>-->
+<!--                                                            </strong>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </t>-->
+<!--                                            </div>-->
+<!--                                        </t>-->
+<!--                                    </templates>-->
+<!--                                </kanban>-->
+<!--                            </field></div>-->
+<!--                    </div>-->
+<!--                    <br/><br/><br/><br/>-->
+<!--                </sheet>-->
+<!--            </form>-->
+<!--        </field>-->
+
+<!--    </record>-->
+    <!-- Action for "teaching" -->
+    <record id='action_teaching_score_act_window' model='ir.actions.act_window'>
+        <field name="name">Score</field>
+        <field name="res_model">teaching.score</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem
+            id="teaching_score_menu_item"
+            name="Scores"
+            parent="teaching_teaching_menu_root"
+            sequence="1"
+            action="action_teaching_score_act_window"
+    />
+
+</odoo>
